@@ -104,8 +104,8 @@ app.on('ready', function () {
   createWindow();
 
   if (isDev) {
-    // Assume the webpack dev server is up at port 9000  
-    loadHomePage('http://localhost:9000');
+    // Assume the webpack dev server is up at port 4200 (for Angular)  
+    loadHomePage('http://localhost:4200');
   } else {
     // Start server at an available port (prefer 8080)
     findPort(8080, function(err, port) {
