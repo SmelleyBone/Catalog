@@ -35,8 +35,8 @@ npm run build
 During development, you may simple work on front-end and backend with independent tools. Note that the front-end `vue` project has its own `package.json` so it can be built independently.
 
 * To run backend, import the Maven project into your favorite Java IDE and launch from there. The embedded Tomcat server will be running on port `8080`.
-* To run front-end, simple run `npm run serve` in `vue` folder. The webpack dev server will be running on port `9000` with hot reload. It is configured to proxy `actuator/health` and `api` URL to port `8080`.
-* To run the Electron part, run `npm run start` in root folder. The Electron app loads the home page at `http://localhost:9000`, therefore you should run both backend and front-end first.
+* To run front-end, simple run `npm run start` in `angular` folder. The webpack dev server will be running on port `4200` with hot reload. It is configured to proxy `actuator/health` and `api` URL to port `8080`.
+* To run the Electron part, run `npm run start` in root folder. The Electron app loads the home page at `http://localhost:4200`, therefore you should run both backend and front-end first.
 
 ## How it works
 
